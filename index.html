@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <title>My Portfolio</title>
+</head>
+
+
+<body>
+
+    <div class=" ">
+        <div class="flex items-center">
+
+            <div class="md:text-3xl md:flex md:m-6  text-xl items-center m-1 sticky z-10 top-0 p-2">
+                <h1 class="">PRIYANKA DEVI B</h1>
+
+                <p class="text-purple-700 ">full stack web developer</p>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-6 w-6 md:hidden " id="menuicon">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5 " />
+            </svg>
+        </div>
+
+        <!-- sidenav -->
+
+        <section id="sidenav" class=" md:hidden fixed z-20 top-0 transition-all duration-1000  bg-black"
+            style="width:50%;height:100vh;right:-50%;">
+            <div class="text-right m-5">
+                <p class="inline cursor-pointer " id="closenav"> X</p>
+            </div>
+            <ul class="flex flex-col m-7 gap-5 text-gray-600 ">
+                <li>
+                    <a class="hover:underline hover:text-black" href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a class="hover:underline hover:text-black" href="#skills">skills</a>
+                </li>
+
+                <li>
+                    <a class="hover:underline hover:text-black" href="#projects">project</a>
+                </li>
+
+                <li>
+                    <a class="hover:underline hover:text-black" href="#contact">contact</a>
+                </li>
+            </ul>
+
+        </section>
+
+        <!-- navbar -->
+
+        <div class="hidden md:flex">
+            <div class="flex  m-4 space-x-8 text-xl sticky top-0">
+                <p class="one border rounded-full cursor-pointer   p-2"><a href="index.html">home</a></p>
+                <p class="one border rounded-full cursor-pointer   p-2"><a href="#skills">skills</a></p>
+                <p class="one border rounded-full cursor-pointer   p-2"><a href="#projects">projects</a></p>
+                <p class="one border rounded-full cursor-pointer   p-2"><a href="#contact">contact me</a></p>
+            </div>
+
+        </div>
+
+
+        <!-- aboutme -->
+
+        <div>
+
+            <h1 class="p-2 text-xl md:text-3xl md:p-5 md:mt-12 ">ABOUT ME</h1>
+            <div class="md:flex">
+                <img class="w-64  mt-4 hidden md:flex rounded-md md:rounded-full"
+                    src="./src/WhatsApp Image 2024-11-11 at 22.59.30_a9aa2757.jpg">
+
+                <p class="p-2 md:p-12 text-sm md: md:text-xl"> Hello! I'm B Priyanka devi,
+                    🌟 Starting a new chapter in my career as a web developer! 📚 Just dipped my toes into coding, and
+                    I'm already captivated by the creativity and problem-solving involved. Ready to tackle new
+                    challenges, grow my skills, and contribute to the tech community. Let's build something incredible!
+                    💡💪 l'm eager to deepen my skills and make a mark in the tech industry.
+                    🌟 As a recent graduate from higher secondary, I'm excited to kickstart my career in web development
+                    and explore the endless possibilities of coding!</p>
+
+
+            </div>
+        </div>
+
+        <!-- skills -->
+        <div id="skills">
+            <h1 class="flex md:p-5 md:mt-12 text-xl p-2 md:text-3xl">SKILSS</h1>
+            <nav class="md:flex md:m-7  gap-2 md:h-52  wanted ">
+                <div class="card md:flex: 0 0 250px; ">
+
+                    <div class="desc  mt-4">
+                        <h3 class="font-bold text-purple-100 md:text-xl text-sm">HTML</h3>
+
+                    </div>
+                </div>
+
+                <div class="card md:flex: 0 0 250px;">
+
+                    <div class="desc  mt-2">
+                        <h3 class="font-bold text-purple-100 md:text-xl text-sm">CSS</h3>
+
+                    </div>
+                </div>
+
+                <div class="card md:flex: 0 0 250px;">
+
+                    <div class="desc mt-2">
+                        <h3 class="font-bold text-purple-100 md:text-xl text-sm">Java Script</h3>
+                    </div>
+                </div>
+
+                <div class="card md:flex: 0 0 250px;">
+
+                    <div class="desc mt-2">
+                        <h3 class="font-bold text-purple-100 md:text-xl text-sm">React</h3>
+                    </div>
+                </div>
+
+                <div class="card md:flex: 0 0 250px;">
+
+                    <div class="desc mt-2">
+                        <h3 class="font-bold text-purple-100 md:text-xl text-sm">GitHub</h3>
+                    </div>
+                </div>
+
+                <div class="card md:flex: 0 0 250px;">
+
+                    <div class="desc mt-2">
+                        <h3 class="font-bold text-purple-100 md:text-xl text-sm">Tailwind</h3>
+                    </div>
+                </div>
+
+                <div class="card md:flex:250px;">
+
+                    <div class="desc mt-2">
+                        <h3 class="font-bold text-purple-100 md:text-xl text-sm">MongoDB</h3>
+                    </div>
+                </div>
+
+
+            </nav>
+
+        </div>
+
+
+        <!-- projects -->
+        <div id="projects">
+            <h1 class="mt-3 md:mb-5 md:p-5 md:mt-12 text-xl p-2 md:text-3xl ">PROJECTS </h1>
+
+        <div id="wrapper" class="md:flex md:gap-10">
+
+            <div class="cwrapper md:w-60 md:h-96 mt-3">
+                <div class="card html">
+                    <div class="front">
+                        <div class="pic-holder"></div>
+                        <h2>nostra e-commerce</h2>
+                    </div>
+                    <div class="back">
+                        <p>Building Nostra has been an incredibly rewarding journey. This responsive website is a growth in web development, utilizing a variety of modern technologies and techniques.
+                        </p>
+                        <a href="https://priyankapri24.github.io/Nostraproj/"
+                            class="border-blue-700 mt-28 ml-16 absolute p-2 rounded-3xl bg-black">Click➤</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cwrapper md:w-60 md:h-96 mt-5">
+                <div class="card css">
+                    <div class="front">
+                        <div class="pic-holder"></div>
+                        <h2>bulk mail</h2>
+                    </div>
+                    <div class="back ">
+                        <p class="">A stylesheet language used to describe the presentation and layout of web pages.</p>
+                        <a href="https://priyankapri24.github.io/Nostraproj/"
+                            class="border-blue-700 mt-28 ml-16 absolute p-2 rounded-3xl bg-black">Click➤</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cwrapper md:w-60 md:h-96 mt-5">
+                <div class="card js">
+                    <div class="front">
+                        <div class="pic-holder"></div>
+                        <h2>weather app</h2>
+                    </div>
+                    <div class="back">
+                        <p>Building Weather Reporter was more than just writing code; it was an adventure in mastering JavaScript and API integration. I dug deep into the tech to ensure every click brings you reliable, up-to-date weather info in a flash. </p>
+                        <a href="https://weatherapp-plum-seven.vercel.app/"
+                            class="border-blue-700 mt-28 ml-16 absolute p-2 rounded-3xl bg-black">Click➤</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cwrapper md:w-60 md:h-96 mt-5">
+                <div class="card vue">
+                    <div class="front">
+                        <div class="pic-holder"></div>
+                        <h2>greenden</h2>
+                    </div>
+                    <div class="back">
+                        <p>A progressive JavaScript framework for building user interfaces and single-page applications.
+                        </p>
+                        <a href="https://priyankapri24.github.io/grenden-tailwind/"
+                            class="border-blue-700 mt-28 ml-16 absolute p-2 rounded-3xl bg-black">Click➤</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cwrapper md:w-60 md:h-96 mt-5 ">
+                <div class="card python">
+                    <div class="front">
+                        <div class="pic-holder"></div>
+                        <h2>fasion globle e-commerce</h2>
+                    </div>
+                    <div class="back">
+                        <p>Proud to announce that I’ve developed a website named FashionGlobe entirely on my own using Tailwind CSS.</p>
+                        <a href="https://priyankapri24.github.io/FAsion-global/"
+                        class="border-blue-700 mt-28 ml-16 absolute p-2 rounded-3xl bg-black">Click➤</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    
+     <!-- contactme -->
+     <!-- <div class="contact" id="contact">
+
+        <ul>
+            <li class="instagram"><img class="md:w-12 rounded-full icon1 icon" src="./src/n.jpeg"></li>
+            <li class="youtube"><img class="md:w-12 rounded-full icon3 icon" src="./src/bb.png"></li>
+            <li class="twitter"><img class="md:w-12 rounded-3xl icon2 icon"src="./src/whatsapp-logo-icon-free-png.webp"></i></li>
+            <li class="facebook"><img class="md:w-12 rounded-full icon4 icon" src="./src/aa.png"></li>
+        </ul>
+    </div> -->
+
+
+        
+        
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
+
+<!--
+            
+-->

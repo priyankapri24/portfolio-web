@@ -1,0 +1,254 @@
+
+#wrapper {
+    width: 100%;
+    height: 500px;
+    /* justify-content: center;
+    align-items: center; */
+    /* gap: 20px; */
+    margin: 5px;
+}
+.cwrapper {
+    /* width: 250px;
+    height: 450px; */
+    width: 250px;
+    height: 300px;
+    perspective: 500px;
+    border-radius: 15px;
+    transition: all .3s linear;
+    
+}
+.cwrapper > *,
+.card > * {
+    border-radius: inherit;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    transition: all .3s linear;
+    transform-style: preserve-3d;
+    position: relative;
+    cursor: pointer;
+}
+.html, .html .back {
+    background-image:
+    radial-gradient(
+    circle closest-side, black, #e34c26 300%);
+}
+.css, .css .back {
+    background-image:
+    radial-gradient(
+    circle closest-side, black, #264de4 300%);
+}
+.js, .js .back {
+    background-image:
+    radial-gradient(
+    circle closest-side, black, #f0db4f 300%);
+}
+.vue, .vue .back {
+    background-image:
+    radial-gradient(
+    circle closest-side, black, #42b883 300%);
+}
+.python, .python .back {
+    background-image:
+    radial-gradient(
+    circle closest-side, black, #646464 300%);
+}
+h2 {
+    margin: auto 0;
+}
+.front,.back {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+.front {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-size: cover;
+}
+.pic-holder {
+    width: 100%;
+    aspect-ratio: 1;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .3s ease;
+}
+.html .pic-holder {
+    background-image: url("./LOGO_HTML_512x512.png");
+}
+.css .pic-holder {
+    background-image: url("./LOGO_CSS_512x605.png");
+}
+.js .pic-holder {
+    background-size: 85%;
+    background-image: url("./LOGO_JS_372x378.png");
+}
+.vue .pic-holder {
+    background-image: url("./LOGO_VUE_593x512.png");
+}
+.python .pic-holder {
+    background-image: url("./LOGO_PYTHON_514x512.png");
+}
+.back {
+    background-image: linear-gradient(to bottom, #c7c7c7, firebrick);
+    transform: rotateY(180deg);
+    padding: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    width: 100%;
+    border-top: 3px solid rgb(158, 26, 240);
+    flex: 1;
+    background-color: #333;
+    box-shadow: 0 0 10px 1px #c7c7c7 inset;
+    color: #690b0b;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.card {
+    
+    /* margin: auto 0; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    scroll-snap-align: center;
+    transition: all .5s ease;
+}
+.h3{
+    /* font-size: larger; */
+    /* font-weight: bolder; */
+}
+
+.wanted::-webkit-scrollbar{
+    appearance: none;
+    
+}
+
+
+
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151F28;
+} */
+
+ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+margin-top: 25px;
+    margin-left: 35vw;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    font-size: 23px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.instagram{
+    border: 2px solid #ff0095;
+    color: #c72b7e;
+}
+
+.twitter{
+    border: 2px solid #20b468;
+    color: #22de22;
+}
+
+.youtube{
+    border: 2px solid #3215c8;
+    color: #1100ff;
+}
+
+.facebook{
+    border: 2px solid #0679e6;
+    color: #0679e6;
+}
+
+
+/* #####################  Hover EFFECTS ############################# */
+
+.icon{
+    transition: 0.6s;
+}
+
+li:hover .icon1{
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px #e61b91;
+}
+
+li:hover .icon2{
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px #0ccd43;
+}
+
+li:hover .icon3{
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px #2b00ff;
+}
+
+li:hover .icon4{
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px #0679e6;
+}
+
+li{
+    transition: 0.4s;
+    transition-delay: 0.2s;
+}
+
+.instagram:hover{
+    box-shadow: 0px 0px 7px #ff0095 inset,
+                0px 0px 7px #ff0095;
+}
+
+.twitter:hover{
+    box-shadow: 0px 0px 7px #10eb31 inset,
+                0px 0px 7px #06e67d;
+}
+
+.youtube:hover{
+    box-shadow: 0px 0px 7px #2b00ff inset,
+                0px 0px 7px #0400ff;
+}
+
+.facebook:hover{
+    box-shadow: 0px 0px 7px #0679e6 inset,
+                0px 0px 7px #0679e6;
+}
+
+.navbar{
+    justify-content: center;
+}
+
+.one:hover{
+    box-shadow: 0px 0px 7px #9e04c1 inset,
+                0px 0px 7px #a41df2;
+}
